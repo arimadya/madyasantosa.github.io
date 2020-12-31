@@ -1,0 +1,32 @@
+$primary: #f0810f;
+$primaryHover: #da7511;
+$white: #ffffff;
+$black: #011a27;
+.btn {
+  outline: none;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 8px 16px;
+}
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  color: $white;
+  font-size: 14px;
+
+  &:hover {
+    background-color: $primaryHover;
+    border-color: $primaryHover;
+  }
+}
+.btn-primary-outline {
+  border-color: $primary;
+  color: $primary;
+  font-size: 14px;
+
+  &:hover {
+    color: $white;
+    background-color: $primary;
+    border-color: $primary;
+  }
+}

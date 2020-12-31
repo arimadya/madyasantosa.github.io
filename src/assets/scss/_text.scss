@@ -1,0 +1,28 @@
+.text-header {
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 600;
+}
+.text-sub-title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+.text-desc {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.text-primary {
+  color: $primary;
+}
+.text-secondary {
+  color: $secondary;
+}
+.text-gray {
+  color: $gray;
+}
+.text-black {
+  color: $black;
+}
